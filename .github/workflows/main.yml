@@ -13,7 +13,7 @@ on:
 
 env:
   WINE_VERSION: "9.0"
-  MOLTENVK_VERSION: "1.2.11"
+  MOLTENVK_VERSION: "1.4.1"
   DXVK_VERSION: "2.4"
   APP_BUNDLE_ID: "com.gamehub.pro.engine"
   APP_VERSION: "3.0"
