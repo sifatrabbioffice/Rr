@@ -423,7 +423,7 @@ jobs:
                       GCInputRightShoulder,
                       GCInputLeftTrigger,
                       GCInputRightTrigger,
-                      GCInputDirectionalDpad
+                      
                   ]
                   gcController = GCVirtualController(configuration: config)
               }
