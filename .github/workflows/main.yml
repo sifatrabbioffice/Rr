@@ -62,9 +62,10 @@ jobs:
       # .NET Framework (4.8 stub + metadata)
       - name: Download .NET Framework Stubs
         run: |
-          curl -fsSL "https://download.visualstudio.microsoft.com/download/pr/7afca9a1-7abd-4e9e-b711-b96269e9d0e1/abb213d61ee6923557e45ee5af718d78/ndp48-web.exe" -o ndp48-web.exe || true
+           curl -fsSL -A "Mozilla/5.0" "https://download.visualstudio.microsoft.com/download/pr/7afca9a1-7abd-4e9e-b711-b96269e9d0e1/abb213d61ee6923557e45ee5af718d78/ndp48-web.exe" -o ndp48-web.exe || true
 
-          echo "✅ .NET packages ready"
+
+           echo "✅ .NET packages ready"
 
       # MoltenVK (Vulkan → Metal bridge for A17 Pro GPU)
       - name: Download MoltenVK
