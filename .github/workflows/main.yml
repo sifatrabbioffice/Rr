@@ -62,7 +62,7 @@ jobs:
       # .NET Framework (4.8 stub + metadata)
       - name: Download .NET Framework Stubs
         run: |
-          curl -fsSL "https://download.microsoft.com/download/B/9/E/B9E63261-3B72-4775-A08A-5E1F07E2EA1C/ndp48-web.exe" \
+          curl -fsSL "https://dotnet.microsoft.com/en-us/download/dotnet-framework/thank-you/net48-web-installer/ndp48-web.exe" \
             -o deps/dotnet/ndp48_installer.exe || true
           # .NET 6 runtime (for modern wine apps)
           curl -fsSL "https://download.visualstudio.microsoft.com/download/pr/dotnet-runtime-6.0.36-win-x64.exe" \
